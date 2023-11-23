@@ -70,8 +70,7 @@ a {
 /* End Components */
 /* Start Header */
 .header {
-    padding: 20px;
-    position: absolute;
+
 }
 .header .container {
     display: flex;
@@ -81,7 +80,10 @@ a {
     padding: 10px;
     position: fixed;
     z-index: 1;
-    width: 95%;
+    width: 90%;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 20px;
 }
 @media (min-width:414px) {
     .header .container {
